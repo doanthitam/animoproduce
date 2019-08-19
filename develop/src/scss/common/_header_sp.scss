@@ -1,0 +1,149 @@
+// p {
+//   font-size: rem2(26);
+//   line-height: rem2(52);
+// }
+// .btn {
+//   a {
+//     display: block;
+//     height: vw(101);
+//     line-height: vw(101);
+//     font-size: rem2(28);
+//     text-align: center;
+//     position: relative;
+//     text-decoration: none;
+//     color: #000;
+//     overflow: hidden;
+//     transition: all 0.5s;
+//     &:hover {
+//       color: #fff;
+//       &:before {
+//         left: -10%;
+//         width: 90%;
+//       }
+//     }
+//     &:after {
+//       content: "";
+//       position: absolute;
+//        top: 50%;
+//        transform: translateY(-50%);
+//     }
+//   }
+//   .formbtn {
+//     &:after {
+//       background: url('../images/calender_icon.png')no-repeat;
+//       width: vw(22);
+//       height: vw(22);
+//       background-size: contain;
+//       left: vw(110);
+//     }
+//     &:hover {
+//       &:after {
+//         background: url('../images/calender_icon_hv.png')no-repeat;
+//         background-size: contain;
+//       }
+//     }
+//   }
+//   .accessbtn {
+//     &:after {
+//       background: url('../images/access_icon.png')no-repeat;
+//       width: vw(22);
+//       height: vw(34);
+//       background-size: contain;
+//       left: vw(95);
+//     }
+//     &:hover {
+//       &:after {
+//         background: url('../images/access_icon_hv.png')no-repeat;
+//         background-size: contain;
+//       }
+//     }
+//   }
+// }
+// header {
+//   position: relative;
+//   z-index: 99;
+//   border-bottom: 1px solid #e5e5e5;
+//   .logo_02 {
+//     padding: vw(35);
+//     a {
+//       width: vw(290);
+//       font-size: 0;
+//       display: block;
+//       transition: .3s;
+//       &:hover {
+//         opacity: 0.8;
+//       }
+//     }
+//   }
+//   .btn {
+//     background: rgba(0, 0, 0, 0.6);
+//     display: none;
+//     ul {
+//       li {
+//         border-bottom: 1px solid #fff;
+//         a {
+//           margin: 0 auto;
+//           color: #fff;
+//         }
+//       }
+//     }
+//     .formbtn {
+//       &:after {
+//         background: url('../images/calender_icon_hv.png')no-repeat;
+//         background-size: contain;
+//       }
+//     }
+//     .accessbtn {
+//       &:after {
+//         background: url('../images/access_icon_hv.png')no-repeat;
+//         background-size: contain;
+//       }
+//     }
+//   }
+// }
+// .menuIcon {
+//   position: absolute;
+//   z-index: 5;
+//   right: vw(30);
+//   top: vw(38);
+//   .menu_trigger {
+//     display: inline-block;
+//     transition: all 0.4s;
+//     position: relative;
+//     width: vw(60);
+//     height: vw(40);
+//     &.active {
+//       span {
+//         &:nth-of-type(1) {
+//           transform: translateY(vw(20)) rotate(-315deg);
+//         }
+//         &:nth-of-type(2) {
+//           opacity: 0;
+//         }
+//         &:nth-of-type(3) {
+//           transform: translateY(vw(-20)) rotate(315deg);
+//         }
+//       }
+//     }
+//     span {
+//       display: inline-block;
+//       transition: all 0.4s;
+//       box-sizing: border-box;
+//       position: absolute;
+//       left: 0;
+//       width: 100%;
+//       background-color: #000;
+//       border-radius: vw(8);
+//       height: vw(4);
+//       &:nth-of-type(1) {
+//         top: 0
+//       }
+//       &:nth-of-type(2) {
+//         top: vw(20);
+//       }
+//       &:nth-of-type(3) {
+//         bottom: 0;
+//       }
+//     }
+//   }
+// }
