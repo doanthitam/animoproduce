@@ -21,6 +21,9 @@ html {
 
 @media screen and (min-width: 768px), print {
   @import "page/top_pc";
+  @import "page/product_pc";
+  @import "page/topic_pc";
+  @import "page/artist_pc";
   @import "common/header_pc";
   @import "common/footer_pc";
   @import "common/common_pc";
