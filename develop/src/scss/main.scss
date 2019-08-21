@@ -14,6 +14,7 @@ html {
 // @import "vendor/slick-theme";
 // 3. Base
 @import "base/normalize";
+@import "base/font";
 // @import "base/font";
 @import "common/common";
 
@@ -24,6 +25,7 @@ html {
   @import "page/product_pc";
   @import "page/topic_pc";
   @import "page/artist_pc";
+  @import "page/company_pc";
   @import "common/header_pc";
   @import "common/footer_pc";
   @import "common/common_pc";
