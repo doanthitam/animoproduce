@@ -18,6 +18,10 @@
   display: block;
   font-size: rem(18);
   margin: 0 auto;
+  transition: .3s ease-out;
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 h3 {

@@ -11,18 +11,27 @@
     <div class="container">
       <header id="header" class="header">
         <div class="header_top header_sub">
-          <h1 class="logo"><a href="/"><img src="../images/logo.png" alt="logo"></a></h1>
+          <h1 class="logo"><a href="/"><img src="./images/logo.png" alt="logo"></a></h1>
           <div class="mv">
-            <figure><img src="./images/product_mv.jpg" alt="product"></figure>
+            <figure>
+              <img src="./images/product_mv.jpg" alt="company">
+            </figure>
           </div>
         </div>
         <p class="show_sp menuIcon"><a class="menu_trigger" href="#" id="js-menuButton"><span></span><span></span><span></span></a></p>
         <nav class="nav flex menu_sub" id="js-menu">
-          <ul class="flex row">
-            <li><a href="/company.html">会社概要</a></li>
-            <li><a href="">制作</a></li>
-            <li><a href="">配給</a></li>
-            <li><a href="">所属アーティスト</a></li>
+          <ul class="row">
+            <li><a href="company.html">会社概要</a></li>
+            <li>
+              <a href="product.html">制作</a>
+              <ul class="dropdown">
+                <li><a href="/">映画</a></li>
+                <li><a href="/">舞台</a></li>
+                <li><a href="/">インターネットコンテンツ</a></li>
+              </ul>
+            </li>
+            <li><a href="topic.html">配給</a></li>
+            <li><a href="artist.html">所属アーティスト</a></li>
           </ul>
           <a href="" class="onlineshop">オンラインショップ</a>
         </nav>
@@ -31,30 +40,146 @@
       <main>
         <section class="product row">
           <h3>PRODUCTS</h3>
-          <div class="tab">
-            <ul class="flex">
-              <li class="active"><a href="/">映画</a></li>
-              <li><a href="/">舞台</a></li>
-              <li><a href="/">DVD</a></li>
-              <li><a href="/">MUSIC VIDEO</a></li>
-              <li><a href="/">その他</a></li>
-            </ul>
+          <ul class="flex tabs">
+            <li><a href="#tab_01">映画</a></li>
+            <li><a href="#tab_02">舞台</a></li>
+            <li><a href="#tab_03">DVD</a></li>
+            <li><a href="#tab_04">MUSIC VIDEO</a></li>
+            <li><a href="#tab_05">その他</a></li>
+          </ul>
+          <div class="tab_active tab_content" id="tab_01">
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_01.jpg" alt=""><figcaption><h4>映画『愛がなんだ』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_02.jpg" alt=""><figcaption><h4>映画『リングサイドストーリー』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_03.jpg" alt=""><figcaption><h4>映画『METALCA』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_04.jpg" alt=""><figcaption><h4>映画『EDEN』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_05.jpg" alt=""><figcaption><h4>映画『女たちの都〜ワッゲンオッゲン〜』</h4></figcaption></figure>
+              </a>
+            </div>
           </div>
-          <div class="tab_cover flex">
-            <div class="tab_inner tab_01">
-              <figure><img src="./images/movie_01.jpg" alt=""><figcaption><h4>映画『愛がなんだ』</h4></figcaption></figure>
+          <div class="tab_content" id="tab_02">
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_01.jpg" alt=""><figcaption><h4>映画『愛がなんだ』</h4></figcaption></figure>
+              </a>
             </div>
-            <div class="tab_inner tab_02">
-              <figure><img src="./images/movie_02.jpg" alt=""><figcaption><h4>映画『リングサイドストーリー』</h4></figcaption></figure>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_02.jpg" alt=""><figcaption><h4>映画『リングサイドストーリー』</h4></figcaption></figure>
+              </a>
             </div>
-            <div class="tab_inner tab_03">
-              <figure><img src="./images/movie_03.jpg" alt=""><figcaption><h4>映画『METALCA』</h4></figcaption></figure>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_03.jpg" alt=""><figcaption><h4>映画『METALCA』</h4></figcaption></figure>
+              </a>
             </div>
-            <div class="tab_inner tab_04">
-              <figure><img src="./images/movie_04.jpg" alt=""><figcaption><h4>映画『EDEN』</h4></figcaption></figure>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_04.jpg" alt=""><figcaption><h4>映画『EDEN』</h4></figcaption></figure>
+              </a>
             </div>
-            <div class="tab_inner tab_05">
-              <figure><img src="./images/movie_05.jpg" alt=""><figcaption><h4>映画『女たちの都〜ワッゲンオッゲン〜』</h4></figcaption></figure>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_05.jpg" alt=""><figcaption><h4>映画『女たちの都〜ワッゲンオッゲン〜』</h4></figcaption></figure>
+              </a>
+            </div>
+          </div>
+          <div class="tab_content" id="tab_03">
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_01.jpg" alt=""><figcaption><h4>映画『愛がなんだ』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_02.jpg" alt=""><figcaption><h4>映画『リングサイドストーリー』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_03.jpg" alt=""><figcaption><h4>映画『METALCA』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_04.jpg" alt=""><figcaption><h4>映画『EDEN』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_05.jpg" alt=""><figcaption><h4>映画『女たちの都〜ワッゲンオッゲン〜』</h4></figcaption></figure>
+              </a>
+            </div>
+          </div>
+          <div class="tab_content" id="tab_04">
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_01.jpg" alt=""><figcaption><h4>映画『愛がなんだ』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_02.jpg" alt=""><figcaption><h4>映画『リングサイドストーリー』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_03.jpg" alt=""><figcaption><h4>映画『METALCA』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_04.jpg" alt=""><figcaption><h4>映画『EDEN』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_05.jpg" alt=""><figcaption><h4>映画『女たちの都〜ワッゲンオッゲン〜』</h4></figcaption></figure>
+              </a>
+            </div>
+          </div>
+          <div class="tab_content" id="tab_05">
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_01.jpg" alt=""><figcaption><h4>映画『愛がなんだ』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_02.jpg" alt=""><figcaption><h4>映画『リングサイドストーリー』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_03.jpg" alt=""><figcaption><h4>映画『METALCA』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_04.jpg" alt=""><figcaption><h4>映画『EDEN』</h4></figcaption></figure>
+              </a>
+            </div>
+            <div class="tab_inner">
+              <a href="/product_det.html">
+                <figure><img src="./images/movie_05.jpg" alt=""><figcaption><h4>映画『女たちの都〜ワッゲンオッゲン〜』</h4></figcaption></figure>
+              </a>
             </div>
           </div>
         </section>
@@ -62,9 +187,9 @@
       <!-- end main -->
       <footer>
         <ul class="flex">
-          <li><img src="./images/ins_icon.png" alt="instagram"></li>
-          <li><img src="./images/fb_icon.png" alt="fb"></li>
-          <li><img src="./images/tw_icon.png" alt="twiter"></li>
+          <li><a href="/"><img src="./images/ins_icon.png" alt="instagram"></a></li>
+          <li><a href="/"><img src="./images/fb_icon.png" alt="fb"></a></li>
+          <li><a href="/"><img src="./images/tw_icon.png" alt="twiter"></a></li>
         </ul>
       </footer>
       <!-- end footer -->

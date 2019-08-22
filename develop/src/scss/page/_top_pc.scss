@@ -2,11 +2,16 @@
 //------------------------------------------------------------------------
 @charset "utf-8";
 .top_main {
+  padding: 0 0 60px;
   p {
     color: #000;
   }
   a {
     text-decoration: none;
+    transition: .3s ease-out;
+    &:hover {
+      opacity: 0.8;
+    }
   }
   .work {
     padding: 60px 0 80px;

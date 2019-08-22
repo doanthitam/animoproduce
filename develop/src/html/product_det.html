@@ -11,18 +11,27 @@
     <div class="container">
       <header id="header" class="header">
         <div class="header_top header_sub">
-          <h1 class="logo"><a href="/"><img src="../images/logo.png" alt="logo"></a></h1>
+          <h1 class="logo"><a href="/"><img src="./images/logo.png" alt="logo"></a></h1>
           <div class="mv">
-            <figure><img src="./images/product_det_mv.jpg" alt="product"></figure>
+            <figure>
+              <img src="./images/product_det_mv.jpg" alt="company">
+            </figure>
           </div>
         </div>
         <p class="show_sp menuIcon"><a class="menu_trigger" href="#" id="js-menuButton"><span></span><span></span><span></span></a></p>
         <nav class="nav flex menu_sub" id="js-menu">
-          <ul class="flex row">
-            <li><a href="/company.html">会社概要</a></li>
-            <li><a href="">制作</a></li>
-            <li><a href="">配給</a></li>
-            <li><a href="">所属アーティスト</a></li>
+          <ul class="row">
+            <li><a href="company.html">会社概要</a></li>
+            <li>
+              <a href="product.html">制作</a>
+              <ul class="dropdown">
+                <li><a href="/">映画</a></li>
+                <li><a href="/">舞台</a></li>
+                <li><a href="/">インターネットコンテンツ</a></li>
+              </ul>
+            </li>
+            <li><a href="topic.html">配給</a></li>
+            <li><a href="artist.html">所属アーティスト</a></li>
           </ul>
           <a href="" class="onlineshop">オンラインショップ</a>
         </nav>
@@ -31,17 +40,15 @@
       <main>
         <section class="product row">
           <h3>PRODUCTS</h3>
-          <div class="tab">
-            <ul class="flex">
-              <li class="active"><a href="/">映画</a></li>
-              <li><a href="/">舞台</a></li>
-              <li><a href="/">DVD</a></li>
-              <li><a href="/">MUSIC VIDEO</a></li>
-              <li><a href="/">その他</a></li>
-            </ul>
-          </div>
+          <ul class="flex tabs">
+            <li><a href="#tab_01">映画</a></li>
+            <li><a href="#tab_02">舞台</a></li>
+            <li><a href="#tab_03">DVD</a></li>
+            <li><a href="#tab_04">MUSIC VIDEO</a></li>
+            <li><a href="#tab_05">その他</a></li>
+          </ul>
           <div class="product_det_tab flex">
-            <figure><img src="../images/product_det_movie.jpg" alt="INTRODUCTION"></figure>
+            <figure><img src="./images/product_det_movie.jpg" alt="INTRODUCTION"></figure>
             <div class="intro_cv">
               <h4>映画『愛がなんだ』</h4>
               <a href="http://aigananda.com" target="_blank">http://aigananda.com</a>
@@ -52,7 +59,7 @@
                 公式ホームページ：http://aigananda.com</p>
                 <p>原作は直木賞作家、角田光代の傑作小説「愛がなんだ」。監督は“正解のない恋の形”を模索し続けてきた恋愛映画の旗手、今泉力哉。 主人公は28歳のOLテルコ。彼女は、想いを寄せているマモルに自分の時間のすべてを捧げてしまう。しかし、マモルはテルコのことが好きではない。完全なる一方通行の恋。 周りが見えなくなるほど、マモルへの想いが膨れ上がっていくテルコ。全力すぎる片思いの末に、テルコが下した思いがけない“決断”とは…。 岸井ゆきの、成田凌、深川麻衣、江口のりこ、若葉竜也、保紫萌香、片岡礼子、筒井真理子ら実力派キャストが集結。「片思い」を徹底的に考察する、可笑しく切ないラブストーリー。</p>
               </div>
-              <div class="intro_det">
+              <div class="intro_det tab_active">
                 <h4>STORY</h4>
                   <p>「私はただ、ずっと彼のそばにはりついていたいのだ。」
                   28歳のテルコはマモルに一目ぼれした5か月前から、生活すべてがマモルを中心に動いている。仕事中も、真夜中でも、マモルからの電話が常に最優先。彼がそばにいてくれるだけで、テルコは幸せなのだ。ある日、マモルの家に泊まったことから2人は急接近。テルコは頼まれてもいない家事や世話に勤しむが、その後マモルからの連絡が突然途絶えてしまう。それから3か月後、マモルから久々に呼び出されると、 彼の隣には年上の女性、すみれがいた…。</p>
@@ -67,7 +74,9 @@
               </div>
           </div>
           <!-- <video src="/"></video> -->
-          <figure><img src="./images/video.jpg" alt="video"></figure>
+          <div class="embed_video">
+            <iframe width="1122" height="631" src="https://www.youtube.com/embed/JOZLsKCn4Tc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <ul class="scene flex">
             <li><img src="./images/scene_01.jpg" alt="scene"></li>
             <li><img src="./images/scene_02.jpg" alt="scene"></li>
@@ -79,9 +88,9 @@
       <!-- end main -->
       <footer>
         <ul class="flex">
-          <li><img src="./images/ins_icon.png" alt="instagram"></li>
-          <li><img src="./images/fb_icon.png" alt="fb"></li>
-          <li><img src="./images/tw_icon.png" alt="twiter"></li>
+          <li><a href="/"><img src="./images/ins_icon.png" alt="instagram"></a></li>
+          <li><a href="/"><img src="./images/fb_icon.png" alt="fb"></a></li>
+          <li><a href="/"><img src="./images/tw_icon.png" alt="twiter"></a></li>
         </ul>
       </footer>
       <!-- end footer -->

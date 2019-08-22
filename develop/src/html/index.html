@@ -11,25 +11,32 @@
     <div class="container">
       <header id="header" class="header">
         <div class="header_top">
-          <h1 class="logo"><a href="/"><img src="../images/logo.png" alt="logo"></a></h1>
+          <h1 class="logo"><a href="/"><img src="./images/logo.png" alt="logo"></a></h1>
           <div class="mv">
-            <ul id="list_photo">
+            <ul id="list_photo" class="list_photo">
               <li><img src="./images/mv.jpg" alt="animoproduce"></li>
-              <li><img src="./images/mv.jpg" alt="animoproduce"></li>
-              <li><img src="./images/mv.jpg" alt="animoproduce"></li>
+              <li><img src="./images/mv_02.jpg" alt="animoproduce"></li>
+              <li><img src="./images/mv_03.jpg" alt="animoproduce"></li>
             </ul>
-            <h2><img src="../images/love_txt.png" alt="love"></h2>
+            <h2><img src="./images/love_txt.png" alt="love"></h2>
           </div>
         </div>
         <p class="show_sp menuIcon"><a class="menu_trigger" href="#" id="js-menuButton"><span></span><span></span><span></span></a></p>
         <nav class="nav flex" id="js-menu">
-          <ul class="flex row">
-            <li><a href="/company.html">会社概要</a></li>
-            <li><a href="">制作</a></li>
-            <li><a href="">配給</a></li>
-            <li><a href="">所属アーティスト</a></li>
+          <ul class="row">
+            <li><a href="company.html">会社概要</a></li>
+            <li>
+              <a href="product.html">制作</a>
+              <ul class="dropdown">
+                <li><a href="/">映画</a></li>
+                <li><a href="/">舞台</a></li>
+                <li><a href="/">インターネットコンテンツ</a></li>
+              </ul>
+            </li>
+            <li><a href="topic.html">配給</a></li>
+            <li><a href="artist.html">所属アーティスト</a></li>
           </ul>
-          <a href="" class="onlineshop">オンラインショップ</a>
+          <a href="/" class="onlineshop">オンラインショップ</a>
         </nav>
       </header>
       <!-- end header -->
@@ -71,7 +78,7 @@
             <h3>TOPICS</h2>
             <ul class="flex row">
               <li>
-                <a href="">
+                <a href="product.html">
                   <img src="./images/topic_01.jpg" alt="topic">
                   <div class="topic_txt">
                     <time datetime="2019-07-04">2019.07.04</time>
@@ -81,7 +88,7 @@
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="topic.html">
                   <img src="./images/topic_02.jpg" alt="topic">
                   <div class="topic_txt">
                     <time datetime="2019-06-07">2019.06.07</time>
@@ -91,7 +98,7 @@
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="/">
                   <img src="./images/topic_03.jpg" alt="topic">
                   <div class="topic_txt">
                     <time datetime="2019-02-08">2019.02.08</time>
@@ -101,7 +108,7 @@
                 </a>
               </li>
             </ul>
-            <a href="" class="button">過去のTOPICSを見る</a>
+            <a href="/" class="button">過去のTOPICSを見る</a>
           </article>
           <article class="row artists">
             <h3>ARTISTS</h2>
@@ -112,16 +119,16 @@
               <li><a href=""><img src="./images/artists_04.png" alt="artists"><p>金　香里</p></a></li>
               <li><a href=""><img src="./images/artists_05.png" alt="artists"><p>杉山　未央</p></a></li>
             </ul>
-            <a href="" class="button">すべてのアーティストを見る</a>
+            <a href="artist.html" class="button">すべてのアーティストを見る</a>
           </article>
         </section>
       </main>
       <!-- end main -->
       <footer>
         <ul class="flex">
-          <li><img src="./images/ins_icon.png" alt="instagram"></li>
-          <li><img src="./images/fb_icon.png" alt="fb"></li>
-          <li><img src="./images/tw_icon.png" alt="twiter"></li>
+          <li><a href="/"><img src="./images/ins_icon.png" alt="instagram"></a></li>
+          <li><a href="/"><img src="./images/fb_icon.png" alt="fb"></a></li>
+          <li><a href="/"><img src="./images/tw_icon.png" alt="twiter"></a></li>
         </ul>
       </footer>
       <!-- end footer -->
