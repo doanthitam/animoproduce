@@ -46,6 +46,15 @@ $('.tabs li').click(function(){
   $(activeTab).fadeIn();
   return false;
 });
+
+//change_image//
+$(function(){
+    $("#big-image li img:eq(0)").nextAll().hide();
+    $(".sub_img img").click(function(e){
+        var index = $(this).index();
+        $("#big-image li img").eq(index).show().siblings().hide();
+    });
+});
 // photo slider/
 
 $(function(){
