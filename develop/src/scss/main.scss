@@ -32,6 +32,9 @@ html {
 }
 @media screen and (max-width: 768px) {
   @import "page/top_sp";
+  @import "page/product_sp";
   @import "common/header_sp";
+  @import "common/footer_sp";
   @import "common/common_sp";
+
 }
