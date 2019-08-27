@@ -1,32 +1,29 @@
 @charset "utf-8";
 .company {
-  padding: 80px 100px;
+  padding: vw(80) vw(35) vw(150);
   &_info {
-    margin: 100px 0 85px;
+    margin: vw(100) 0 vw(150);
     border-top: 1px solid #000;
     dl {
+      display: flex;
       border-bottom: 1px solid #000;
-      padding: 23px 0;
-      font-size: rem(14);
-      line-height: rem(23);
+      padding: vw(40) 0;
+      font-size: rem2(30);
+      line-height: vw(48);
       dt {
-        width: 150px;
+        width: vw(200);
         font-weight: bold;
       }
       dd {
-        width: calc(100% - 150px);
+        width: vw(440);
         a[href^="tel:"]{
-          pointer-events: none;
           color: #000;
           text-decoration: none;
-        }
-        p {
-          line-height: rem(26);
         }
       }
     }
   }
   iframe {
-    height: 710px;
+    height: vw(480);
   }
 }
