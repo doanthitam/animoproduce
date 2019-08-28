@@ -9,51 +9,47 @@
     <link rel="stylesheet" type="text/css" href="./css/main.css"/>
   <body>
     <div class="container">
-      <header id="header" class="header">
-        <div class="header_top header_sub">
-          <h1 class="logo"><a href="index.html"><img src="./images/logo.png" alt="logo"></a></h1>
-          <div class="mv">
-            <figure>
-              <img src="./images/artist_det_mv.jpg" alt="company">
-            </figure>
-          </div>
+      <header id="header" class="header arr_head">
+        <div class="header_top">
+          <h1 class="logo"><a href="/"><img src="./images/logo.png" alt="logo"></a></h1>
+          <p class="menuIcon"><a class="menu_trigger" href="#" id="js-menuButton"><span></span><span></span><span></span></a></p>
+          <nav class="nav flex" id="js-menu">
+            <ul class="row">
+              <li><a href="company.html">会社概要</a></li>
+              <li class="dropshow">
+                <a href="product.html">制作</a>
+                <ul class="dropdown">
+                  <li><a href="#">映画</a></li>
+                  <li><a href="#">舞台</a></li>
+                  <li><a href="#">インターネットコンテンツ</a></li>
+                </ul>
+              </li>
+              <li><a href="topic.html">配給</a></li>
+              <li><a href="artist.html">所属アーティスト</a></li>
+            </ul>
+            <a href="/" class="onlineshop">オンラインショップ</a>
+          </nav>
         </div>
-        <p class="show_sp menuIcon"><a class="menu_trigger" href="#" id="js-menuButton"><span></span><span></span><span></span></a></p>
-        <nav class="nav flex menu_sub" id="js-menu">
-          <ul class="row">
-            <li><a href="company.html">会社概要</a></li>
-            <li>
-              <a href="product.html">制作</a>
-              <ul class="dropdown">
-                <li><a href="#">映画</a></li>
-                <li><a href="#">舞台</a></li>
-                <li><a href="#">インターネットコンテンツ</a></li>
-              </ul>
-            </li>
-            <li><a href="topic.html">配給</a></li>
-            <li><a href="artist.html">所属アーティスト</a></li>
-          </ul>
-          <a href="" class="onlineshop">オンラインショップ</a>
-        </nav>
+        <div class="mv">
+          <figure>
+            <img src="./images/artist_det_mv.jpg" alt="artist">
+          </figure>
+        </div>
       </header>
       <!-- end header -->
       <main>
         <section class="artist row">
           <ul class="flex artist_breadcrumb">
-            <li><a href="/">> 所属アーティスト</a></li>
-            <li><a href="/">> 片山 亨</a></li>
+            <li><a href="artist.html">> 所属アーティスト</a></li>
+            <li><a href="artist_det.html">> 片山 亨</a></li>
           </ul>
           <article class="artist_intro flex">
             <div class="intro_photo">
-              <ul>
-                <li><img src="./images/actor_name.jpg" alt="actor"></li>
-                <li><img src="./images/actor_name.jpg" alt="actor"></li>
-                <li><img src="./images/actor_name.jpg" alt="actor"></li>
-              </ul>
-              <ul class="sub_img flex">
-                <li><img src="./images/name_sub_01.jpg" alt="actor"></li>
-                <li><img src="./images/name_sub_02.jpg" alt="actor"></li>
-                <li><img src="./images/name_sub_03.jpg" alt="actor"></li>
+              <img id="largeImage" src="./images/actor_01_large.jpg" alt="actor">
+              <ul class="sub_img flex" id="thumbs">
+                <li><img src="./images/actor_01_thumb.jpg" alt="actor"></li>
+                <li><img src="./images/actor_02_thumb.jpg" alt="actor"></li>
+                <li><img src="./images/actor_03_thumb.jpg" alt="actor"></li>
               </ul>
             </div>
             <div class="intro_info">

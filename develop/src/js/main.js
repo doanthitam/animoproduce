@@ -1,15 +1,6 @@
 $(window).on('resize',function(){
   // resize();
 })
-$(window).scroll(function(){
-    if ($(window).scrollTop() >= 1400) {
-        $('#header').addClass('fixed-header');
-    }
-    else {
-        $('#header').removeClass('fixed-header');
-
-    }
-});
 
 $("#js-menuButton").on("click", function() {
  $(this).toggleClass("active");
@@ -69,3 +60,5 @@ $(function(){
     pauseOnDotsHover: false
   });
 });
+
+//anime

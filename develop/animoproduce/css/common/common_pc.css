@@ -33,3 +33,8 @@ h3 {
   margin-bottom: 20px;
   font-family: 'renner';
 }
+
+.flex {
+  display: -ms-flexbox;
+  display: flex;
+}

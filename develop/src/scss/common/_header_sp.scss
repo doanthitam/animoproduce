@@ -87,13 +87,17 @@
       transform: scale(1.1);
     }
   }
+  .fixed_nav {
+    position: fixed;
+    top: 0;
+  }
   nav {
     display: none;
     background: #fff;
     width: 100%;
     height: calc(100vh - 88px);
-    padding: vw(100) vw(60);
-    overflow-y: auto;
+    padding: vw(100) vw(60) vw(200);
+    overflow-y: scroll;
     a {
       display: block;
       font-size: rem2(32);

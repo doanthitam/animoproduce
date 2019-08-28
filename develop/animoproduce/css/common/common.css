@@ -10,13 +10,8 @@ img {
   width: 100%;
 }
 
-.flex {
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .show_sp {
-  display: none;
+  display: block;
 }
 
 .show_pc {

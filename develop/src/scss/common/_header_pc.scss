@@ -17,6 +17,12 @@
     top: 0;
     z-index: 3;
   }
+  &.arr_head {
+    &:before {
+      border-right-width: 53px;
+      border-bottom: 30vw solid #fff;
+    }
+  }
   .logo {
     position: absolute;
     left: 70px;
@@ -49,12 +55,6 @@
       bottom: 94px;
       left: 150px;
       width: 335px;
-    }
-  }
-  &_sub {
-    &:before {
-      border-right-width: 53px;
-      border-bottom: 30vw solid #fff;
     }
   }
 }
